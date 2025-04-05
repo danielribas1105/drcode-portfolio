@@ -14,11 +14,11 @@ export default async function Home() {
 	return (
 		<div>
 			<Principal tecnologias={tecnologias.destaques} />
-			<Container className="py-16 flex flex-col gap-7">
-				<Projetos titulo={"Destaques"} listaProjetos={projetos.destaques}/>
-				<Projetos titulo={"Web"} listaProjetos={projetos.web}/>
-				<Projetos titulo={"Mobile"} listaProjetos={projetos.mobile}/>
-				<Projetos titulo={"Jogos"} listaProjetos={projetos.jogos}/>
+			<Container className="py-16 flex flex-col itens-center gap-10">
+				<Projetos titulo={"Destaques"} listaProjetos={projetos.destaques} />
+				<Projetos titulo={"Web"} listaProjetos={projetos.web} />
+				<Projetos titulo={"Mobile"} listaProjetos={projetos.mobile} />
+				<Projetos titulo={"Jogos"} listaProjetos={projetos.jogos} />
 				<Curriculo tecnologias={tecnologias.todas} />
 			</Container>
 		</div>
