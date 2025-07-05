@@ -12,7 +12,7 @@ export default function MenuItem(props: MenuItemProps) {
 	return (
 		<Link href={props.href} target={props.novaAba ? "_blank" : "_self"}>
 			<span
-				className={`
+				className={`uppercase text-xl
          flex items-center gap-2 border-violet-800 hover:text-white hover:border-b-4
          ${props.selecionado ? "border-b-4 text-white" : "text-zinc-500"}
          `}

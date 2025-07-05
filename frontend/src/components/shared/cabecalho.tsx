@@ -6,11 +6,11 @@ import Menu from "../menu/menu"
 
 export default function Cabecalho() {
 	return (
-		<header className="flex items-center py-1 bg-black/50 w-full">
+		<header className="flex items-center py-1 bg-gradient-to-b from-black via-zinc-950 to-transparent w-full">
 			<Container className="flex flex-1 justify-between items-center">
 				<div className="flex items-center gap-10">
 					<Link href="/">
-						<Image src={logo} alt={"Logo DRCode - Developer"} width={120} height={0} />
+						<Image src={logo} alt={"Logo DRCode - Developer"} width={200} height={0} />
 					</Link>
 					<Menu />
 				</div>

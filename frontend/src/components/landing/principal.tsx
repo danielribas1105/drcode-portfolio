@@ -17,7 +17,7 @@ export default function Principal(props: PrincipalProps) {
 						<span className="text-3xl sm:text-5xl font-bold text-center">Daniel Ribas</span>
 						<span className="w-3 h-3 rounded-full bg-violet-800"></span>
 					</h1>
-					<h2 className="text-zinc-500 text-center">Front-end developer</h2>
+					<h2 className="text-zinc-500 text-center text-lg">Front-end developer</h2>
 				</div>
 				<Tecnologias listaTecnologias={props.tecnologias} />
 			</div>
