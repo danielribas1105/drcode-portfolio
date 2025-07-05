@@ -1,3 +1,4 @@
+import Readme from "@/components/projetos/readme"
 import Cabecalho from "@/components/shared/cabecalho"
 import CarrosselImagens from "@/components/shared/carrossel-imagens"
 import Container from "@/components/shared/container"
@@ -20,7 +21,7 @@ export default async function InfoProjeto(props: { params: Promise<{ id: string 
 				<h1 className="text-3xl font-bold self-start">{projeto?.nome}</h1>
 				<CarrosselImagens imagens={projeto.imagens.slice(1)} />
 				<Tecnologias listaTecnologias={projeto.tecnologias} />
-				<div>{readme}</div>
+				<Readme markdown={readme} />
 			</Container>
 		</div>
 	)
