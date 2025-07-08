@@ -12,7 +12,7 @@ export default function Menu() {
 			<MenuItem href="/projeto/1" selecionado={pathName.startsWith("/projeto")}>
 				Projetos
 			</MenuItem>
-			<MenuItem href="https://w.app/4eprzw" selecionado={false} novaAba={true}>
+			<MenuItem href="/contato" selecionado={false}>
 				Contato
 			</MenuItem>
 		</nav>
